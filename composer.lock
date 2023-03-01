@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5aa7402764c9661f94b790109531b0cf",
+    "content-hash": "46a8dbfa8ffad16471f2c2c35fdc0abf",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,16 +154,16 @@
         },
         {
             "name": "inpsyde/wonolog",
-            "version": "1.0.4",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/Wonolog.git",
-                "reference": "60ee47b0b2040e54fd11327751e69546df5750ee"
+                "reference": "0616edabbaa953ab1e199f26956a16d2d495564b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/Wonolog/zipball/60ee47b0b2040e54fd11327751e69546df5750ee",
-                "reference": "60ee47b0b2040e54fd11327751e69546df5750ee",
+                "url": "https://api.github.com/repos/inpsyde/Wonolog/zipball/0616edabbaa953ab1e199f26956a16d2d495564b",
+                "reference": "0616edabbaa953ab1e199f26956a16d2d495564b",
                 "shasum": ""
             },
             "require": {
@@ -178,16 +178,17 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.0.x-dev",
+                    "dev-2.x": "2.x-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Inpsyde\\Wonolog\\": "src"
-                },
                 "files": [
                     "inc/bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Inpsyde\\Wonolog\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -217,20 +218,20 @@
                 "psr-3",
                 "wordpress"
             ],
-            "time": "2020-07-21T15:58:57+00:00"
+            "time": "2023-03-01T01:45:16+00:00"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.26.1",
+            "version": "1.27.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c6b00f05152ae2c9b04a448f99c7590beb6042f5"
+                "reference": "904713c5929655dc9b97288b69cfeedad610c9a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c6b00f05152ae2c9b04a448f99c7590beb6042f5",
-                "reference": "c6b00f05152ae2c9b04a448f99c7590beb6042f5",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/904713c5929655dc9b97288b69cfeedad610c9a1",
+                "reference": "904713c5929655dc9b97288b69cfeedad610c9a1",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +300,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-28T08:32:12+00:00"
+            "time": "2022-06-09T08:53:42+00:00"
         },
         {
             "name": "psr/log",
