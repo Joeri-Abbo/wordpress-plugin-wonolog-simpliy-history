@@ -154,16 +154,16 @@
         },
         {
             "name": "inpsyde/wonolog",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/Wonolog.git",
-                "reference": "0616edabbaa953ab1e199f26956a16d2d495564b"
+                "reference": "967a4ce0739262537d82d60d6182967aff9559ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/Wonolog/zipball/0616edabbaa953ab1e199f26956a16d2d495564b",
-                "reference": "0616edabbaa953ab1e199f26956a16d2d495564b",
+                "url": "https://api.github.com/repos/inpsyde/Wonolog/zipball/967a4ce0739262537d82d60d6182967aff9559ab",
+                "reference": "967a4ce0739262537d82d60d6182967aff9559ab",
                 "shasum": ""
             },
             "require": {
@@ -218,7 +218,7 @@
                 "psr-3",
                 "wordpress"
             ],
-            "time": "2023-03-01T01:45:16+00:00"
+            "time": "2023-11-08T12:11:26+00:00"
         },
         {
             "name": "monolog/monolog",
