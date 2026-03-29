@@ -4,7 +4,7 @@ namespace WonologSimplyHistory;
 use Monolog\Logger;
 use Monolog\Handler\AbstractProcessingHandler;
 
-class ErrorHandler extends AbstractProcessingHandler
+class WSHErrorHandler extends AbstractProcessingHandler
 {
     private $initialized = false;
 

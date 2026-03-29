@@ -11,9 +11,17 @@
   "require": {
     "inpsyde/wonolog": "^1.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
   "autoload": {
     "psr-4": {
         "WonologSimplyHistory\\": "src/"
     }
-}
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WonologSimplyHistory\\Tests\\": "tests/"
+    }
+  }
 }
