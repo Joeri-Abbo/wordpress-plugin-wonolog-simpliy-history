@@ -9,7 +9,7 @@
   ],
   "type": "wordpress-muplugin",
   "require": {
-    "inpsyde/wonolog": "^1.0"
+    "inpsyde/wonolog": "^3.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^11.0"
